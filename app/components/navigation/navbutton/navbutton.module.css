@@ -1,0 +1,25 @@
+.mobileIcon {
+  cursor: pointer;
+}
+.mobileIcon .line {
+  background-color: #222222;
+  display: block;
+  height: 5px;
+  margin: 10px auto;
+  transition: all 0.25s ease-in-out;
+  width: 60px;
+}
+.mobileIcon.navButtonClicked .line:nth-child(2) {
+  opacity: 0;
+}
+.mobileIcon.navButtonClicked .line:nth-child(1) {
+  transform: translateY(15.5px) rotate(45deg);
+}
+.mobileIcon.navButtonClicked .line:nth-child(3) {
+  transform: translateY(-15.5px) rotate(-45deg);
+}
+@media (min-width: 1280px) {
+  .mobileIcon {
+    display: none;
+  }
+}/*# sourceMappingURL=navbutton.module.css.map */

@@ -1,6 +1,72 @@
+@use 'sass:color';
+@use './variables' as *;
+
 body {
-    background: #02000e;
-    color: #fff;
+    background-image: linear-gradient(to right, $white , #fff);
+    color: $primary;
     margin: 0;
-    padding: 15px;
+    position: relative;
+
+    .skipLink {
+        color: $highlight;
+        left: 0;
+        margin: 0 auto;
+        padding: 12px 8px;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        text-decoration: none;
+        top: 15px;
+        transform: translateY(-500%);
+        transition: transform 0.5s ease;
+        width: fit-content;
+
+        &:focus {
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+    }
+
+    a {
+        border: none;
+        border-radius: 8px;
+        color: $highlight;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:focus-visible {
+            outline: 3px solid $accessible;
+            outline-offset: 3px;
+        }
+        
+        &:hover {
+            svg * {
+                fill: $highlight;
+                transition: fill 0.3s ease;
+            }
+        }
+
+        &:visited {
+            color: $highlight;
+        }
+    }
+
+    main {
+        padding: 140px 30px 40px;
+
+        p {
+            margin-bottom: 2em;
+        }
+    }
+
+    @include breakpoint(lg) {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin: 0 auto;
+        max-width: 1280px;
+
+        main {
+            padding: 40px 30px;
+        }
+    }
 }

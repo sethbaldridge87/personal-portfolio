@@ -1,0 +1,35 @@
+@use 'sass:color';
+@use '../../../variables' as *;
+
+.mobileIcon {
+    cursor: pointer;
+
+    .line {
+        background-color: $primary;
+        display: block;
+        height: 5px;
+        margin: 10px auto;
+        transition: all 0.25s ease-in-out;
+        width: 60px;
+    }
+
+    &.navButtonClicked {
+        .line {
+            &:nth-child(2) {
+                opacity: 0;
+            }
+
+            &:nth-child(1) {
+                transform: translateY(15.5px) rotate(45deg);
+            }
+
+            &:nth-child(3) {
+                transform: translateY(-15.5px) rotate(-45deg);
+            }
+        }
+    }
+
+    @include breakpoint(lg) {
+        display: none;
+    }
+}

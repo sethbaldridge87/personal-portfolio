@@ -1,0 +1,17 @@
+.header {
+  background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+}
+.header svg {
+  height: 60px;
+  width: 60px;
+}
+@media (min-width: 1280px) {
+  .header {
+    background-image: none;
+    grid-column: 1/-1;
+    position: static;
+  }
+}/*# sourceMappingURL=header.module.css.map */

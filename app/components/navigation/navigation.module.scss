@@ -1,0 +1,78 @@
+@use 'sass:color';
+@use '../../variables' as *;
+
+.nav {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+
+    aside {
+        background-image: linear-gradient(to right, $white , #fff);
+        bottom: 0;
+        position: fixed;
+        left: 0;
+        left: calc(-100% - 50px);
+        padding: 0 15px;
+        transition: left 0.25s ease-in-out;
+        top: 124px;
+        width: 100%;
+    }
+
+    ul {
+        margin-bottom: 8px;
+        padding: 0;
+
+        li {
+            border-radius: 8px;
+            font-size: 20px;
+            list-style-type: none;
+            width: fit-content;
+
+            a {
+                color: $grayed;
+                display: flex;
+                font-weight: 600;
+                padding: 8px 12px;
+            }
+
+            &:hover {
+                background-color: color.adjust($highlight, $lightness: 52%);
+                a {
+                    color: $highlight;
+                }
+            }
+        }
+    }
+    
+    &.navOpen {
+        aside {
+            left: 0;
+        }
+    }
+
+    .socials {
+        margin-left: 5px;
+
+        a {
+            svg {
+                height: 45px;
+                width: 45px;
+            }
+        }
+    }
+
+    @include breakpoint(lg) {
+        position: static;
+
+        aside {
+            background-image: none;
+            left: 0;
+            position: static;
+            width: 300px;
+        }
+
+        ul {
+            margin-top: 60px;
+        }
+    }
+}

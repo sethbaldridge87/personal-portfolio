@@ -1,6 +1,60 @@
 body {
-  background: #02000e;
-  color: #fff;
+  background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);
+  color: #222222;
   margin: 0;
-  padding: 15px;
+  position: relative;
+}
+body .skipLink {
+  color: #510816;
+  left: 0;
+  margin: 0 auto;
+  padding: 12px 8px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  top: 15px;
+  transform: translateY(-500%);
+  transition: transform 0.5s ease;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .skipLink:focus {
+  pointer-events: auto;
+  transform: translateY(0);
+}
+body a {
+  border: none;
+  border-radius: 8px;
+  color: #510816;
+  cursor: pointer;
+  text-decoration: none;
+}
+body a:focus-visible {
+  outline: 3px solid #49086c;
+  outline-offset: 3px;
+}
+body a:hover svg * {
+  fill: #510816;
+  transition: fill 0.3s ease;
+}
+body a:visited {
+  color: #510816;
+}
+body main {
+  padding: 140px 30px 40px;
+}
+body main p {
+  margin-bottom: 2em;
+}
+@media (min-width: 1280px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  body main {
+    padding: 40px 30px;
+  }
 }/*# sourceMappingURL=globals.css.map */

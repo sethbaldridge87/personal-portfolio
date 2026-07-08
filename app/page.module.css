@@ -1,0 +1,37 @@
+.skills {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+  width: 100%;
+  gap: 30px;
+}
+.skills .card {
+  background: #ffffff;
+  border: 1px solid #767676;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+.skills .card p {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+.skills .card svg {
+  height: 60px;
+}
+
+.portrait {
+  text-align: center;
+}
+.portrait img {
+  border: 3px solid #222222;
+  border-radius: 50%;
+}
+
+@media (min-width: 640px) {
+  .introduction img {
+    float: right;
+    margin-left: 30px;
+  }
+}/*# sourceMappingURL=page.module.css.map */
