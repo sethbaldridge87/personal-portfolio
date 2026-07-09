@@ -1,0 +1,15 @@
+.resume h3, .resume h4, .resume p {
+  margin: 0.45em 0;
+}
+.resume li {
+  margin: 0.35rem 0;
+}
+
+@media (min-width: 640px) {
+  .contactInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=page.module.css.map */

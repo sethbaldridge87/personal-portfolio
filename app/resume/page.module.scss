@@ -1,0 +1,21 @@
+@use 'sass:color';
+@use '../variables' as *;
+
+.resume {
+    h3, h4, p {
+        margin: .45em 0;
+    }
+
+    li {
+        margin: .35rem 0;
+    }
+}
+
+@include breakpoint(sm) {
+    .contactInfo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

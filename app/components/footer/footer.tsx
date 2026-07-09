@@ -3,6 +3,8 @@ import styles from "./footer.module.css";
 
 export default function Footer() {
     const navItems: string [] = ['About', 'Resume', 'Projects', 'References', 'Contact'];
+    const thisYear: number = new Date().getFullYear();
+
     return (
         <footer className={styles.footer}>
             <hr />
@@ -32,7 +34,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className={styles.copyright}>©2026 Seth Baldridge</div>
+            <div className={styles.copyright}>©{thisYear} Seth Baldridge</div>
         </footer>
     )
 }

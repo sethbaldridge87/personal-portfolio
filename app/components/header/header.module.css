@@ -13,5 +13,6 @@
     background-image: none;
     grid-column: 1/-1;
     position: static;
+    width: auto;
   }
 }/*# sourceMappingURL=header.module.css.map */
