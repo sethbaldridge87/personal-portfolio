@@ -2,6 +2,7 @@
   position: fixed;
   right: 30px;
   top: 30px;
+  z-index: 1;
 }
 .nav aside {
   background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);

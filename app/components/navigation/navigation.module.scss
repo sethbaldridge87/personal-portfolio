@@ -5,6 +5,7 @@
     position: fixed;
     right: 30px;
     top: 30px;
+    z-index: 1;
 
     aside {
         background-image: linear-gradient(to right, $white , #fff);
