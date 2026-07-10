@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Andrew Ariotti",
+    "title": "Senior Manager of Web Marketing, Ivanti",
+    "review": "Seth worked on my team at Ivanti the past several years. He hit the ground running with code that he hadn't written himself in a CMS that he wasn't familiar with. He excelled and became a huge asset to the team in no time! We had a HUGE redesign project a few weeks ago that he was working around the clock to get done. Nights/weekends, he did what it took to get it done. The end product was awesome and he accomplished even more than we had anticipated. So glad that our paths crossed and excited to see his front end dev skills continue to grow!",
+    "email": "amariotti@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/amariotti/"
+  }, {
+    "name": "Jack Rowley",
+    "title": "Full-Stack Engineering Director, Ivanti",
+    "email": "rowleyjack@mgail.com",
+    "linkedIn": "https://www.linkedin.com/in/jackrowley-director-website-strategy/"
+  }, {
+    "name": "Travis Frazier",
+    "title": "Front-End Developer, Ivanti",
+    "email": "travisfrazier.dev@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/traviscoding/"
+  }, {
+    "name": "Antony Voznesensky",
+    "title": "Senior Back-End Developer, Ivanti",
+    "email": "antony.v@proton.me"
+  }
+]

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
-import profilePic from "@/public/profile.jpg"
+import profilePic from "@/public/profile.jpg";
 
 export default function Home() {
   return (

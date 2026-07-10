@@ -1,0 +1,43 @@
+[
+  {
+    "date": "August 2019 - January 2026",
+    "title": "Senior Frontend Developer",
+    "company": "Ivanti",
+    "location": "South Jordan, UT",
+    "work": [
+        "Tested and debugged multiple applications for various devices, browsers and operating systems for a global customer base (including non-English speakers).",
+        "Built an interactive, alphabetized library for product documentation files for mobile and desktop.",
+        "Collaborated with the developer team using Agile/Scrum methodologies.",
+        "Decreased reliance on 3rd-party JS libraries with reusable custom JavaScript functions.",
+        "Increased versatility of existing HTML structure/templates through creative use of CSS classes and pattern recognition.",
+        "In Vue.js, developed a robust icon library app linked to an API.",
+        "Optimized performance of pages with video iframes via lazy-loading and the Youtube and Vimeo APIs.",
+        "Delivered pixel-perfect webpages based on Figma designs and improvised several mobile UX/UI layouts.",
+        "Oversaw several site-wide rebrandings delivered under tight time constrictions.",
+        "Leveraged AI tools like Github CoPilot to get insightful code reviews that ensured best practices and rapid delivery, while also pinpointing and correcting faulty code."
+    ]
+  }, {
+    "date": "January 2017 - August 2019",
+    "title": "Web Developer",
+    "company": "Hydro Engineering, Inc",
+    "location": "South Salt Lake, UT",
+    "work": [
+        "Added contact forms and customer data applications using jQuery, PHP, MySQL.",
+        "Utilized Python to automatically generate customer reports.",
+        "Smoothed out mobile and desktop stylings by integrating Bootstrap.",
+        "Improved SEO ratings through strategic metadata and increased accessibility standards.",
+        "Debugged broken applications across multiple browsers and operating systems.",
+        "Developed and launched a product comparison feature using browser storage and JavaScript."
+    ]
+  }, {
+    "date": "May 2016 - June 2016",
+    "title": "Web Development Intern",
+    "company": "Firetoss",
+    "location": "Salt Lake City, UT",
+    "work": [
+        "Performed simple CSS and HTML code edits in Wordpress environment.",
+        "Assisted with image organization and optimization.",
+        "Arranged page layouts with Adobe Illustrator."
+    ]
+  }
+]

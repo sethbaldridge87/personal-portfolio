@@ -1,8 +1,41 @@
 .resume h3, .resume h4, .resume p {
   margin: 0.45em 0;
 }
+.resume ul {
+  margin-bottom: 0;
+}
 .resume li {
   margin: 0.35rem 0;
+}
+
+.experience {
+  padding-left: 25px;
+  position: relative;
+}
+.experience:before {
+  background-color: #510816;
+  bottom: 0;
+  content: "";
+  height: calc(100% - 10px);
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.position {
+  position: relative;
+}
+.position:before {
+  background-color: #510816;
+  border-radius: 2px;
+  content: "";
+  height: 10px;
+  left: -29px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(45deg);
+  width: 10px;
 }
 
 @media (min-width: 640px) {

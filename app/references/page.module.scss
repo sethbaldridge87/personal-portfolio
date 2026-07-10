@@ -1,0 +1,14 @@
+@use 'sass:color';
+@use '../variables' as *;
+
+.reference {
+    a {
+        display: flex;
+    }
+    
+    svg {
+        height: 45px;
+        margin-right: 15px;
+        width: 45px;
+    }
+}
