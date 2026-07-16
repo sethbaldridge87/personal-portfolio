@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "email:dev": "email dev"
+    "email": "email dev --dir app/emails"
   },
   "dependencies": {
     "next": "16.2.10",
