@@ -1,6 +1,6 @@
 .header {
   background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);
-  padding: 30px;
+  padding: 15px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -13,6 +13,7 @@
   .header {
     background-image: none;
     grid-column: 1/-1;
+    padding: 30px;
     position: static;
     width: auto;
   }

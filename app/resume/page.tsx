@@ -48,7 +48,7 @@ export default function Resume() {
                                 ))}
                             </ul>
                         </div>
-                        {experienceArray.length != index && <br />}
+                        {experienceArray.length != index + 1 && <br />}
                     </React.Fragment>       
                 ))}
             </div>

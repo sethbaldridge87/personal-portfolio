@@ -1,8 +1,25 @@
+.reference {
+  padding: 15px;
+}
+.reference h2 {
+  margin-top: 0;
+}
+.reference:nth-child(odd) {
+  background-color: #dedede;
+}
 .reference a {
   display: flex;
+  padding-right: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .reference svg {
   height: 45px;
   margin-right: 15px;
   width: 45px;
+}
+@media (min-width: 1280px) {
+  .reference {
+    padding: 30px;
+  }
 }/*# sourceMappingURL=page.module.css.map */

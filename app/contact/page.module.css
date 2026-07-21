@@ -1,0 +1,31 @@
+.form {
+  width: 100%;
+}
+.form label {
+  display: block;
+}
+.form input, .form textarea {
+  border-radius: 10px;
+  border: 2px solid #767676;
+  padding: 10px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+.form button {
+  background-color: #222222;
+  border-radius: 10px;
+  color: rgb(245, 243, 243);
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+}
+.form button:hover {
+  background-color: #510816;
+  transition: 0.3s;
+}
+@media (min-width: 1280px) {
+  .form {
+    width: 50%;
+  }
+}/*# sourceMappingURL=page.module.css.map */

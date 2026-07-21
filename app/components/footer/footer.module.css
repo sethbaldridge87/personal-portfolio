@@ -4,7 +4,7 @@
 .footer .footerLinks {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 15px;
 }
 .footer .logo {
   flex: 0 0 100%;
