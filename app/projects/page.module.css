@@ -1,0 +1,29 @@
+.projects .project {
+  margin-bottom: 2rem;
+}
+.projects .project img {
+  height: auto;
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .projects .project {
+    display: flex;
+    margin-bottom: 6rem;
+  }
+  .projects .project img {
+    max-width: 50%;
+  }
+  .projects .project .text {
+    align-content: center;
+    padding: 45px;
+  }
+  .projects .project .text h2 {
+    margin-top: 0;
+  }
+  .projects .project:nth-child(odd) {
+    justify-content: space-between;
+  }
+  .projects .project:nth-child(odd) img {
+    order: 2;
+  }
+}/*# sourceMappingURL=page.module.css.map */

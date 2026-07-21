@@ -1,0 +1,41 @@
+@use 'sass:color';
+@use '../variables' as *;
+
+.projects {
+    .project {
+        margin-bottom: 2rem;
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    @include breakpoint(md) {
+        .project {
+            display: flex;
+            margin-bottom: 6rem;
+
+            img {
+                max-width: 50%;
+            }
+
+            .text {
+                align-content: center;
+                padding: 45px;
+
+                h2 {
+                    margin-top: 0;
+                }
+            }
+
+            &:nth-child(odd) {
+                justify-content: space-between;
+
+                img {
+                    order: 2;
+                }
+            }
+        }
+    }
+}

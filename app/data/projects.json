@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Connect4 Game",
+    "subtitle": "Connect4 clone built in Vue.js",
+    "description": "Complex state manipulation",
+    "link": "https://sethbaldridge87.github.io/Connect-4/",
+    "cta": "Try it out!",
+    "image": "/connect4.png",
+    "repo": "https://github.com/sethbaldridge87/Connect-4"
+  }, {
+    "title": "Wordle Game",
+    "subtitle": "Wordle clone built in React.js",
+    "description": "Complex state manipulation",
+    "link": "https://sethbaldridge87.github.io/wordle-game/",
+    "cta": "Try it out!",
+    "image": "/wordle.png",
+    "repo": "https://github.com/sethbaldridge87/wordle-game"
+  }, {
+    "title": "Product Documentation for Ivanti.com",
+    "subtitle": "Responsive document library built in JavaScript.",
+    "description": "Complex state manipulation",
+    "link": "https://www.ivanti.com/support/product-documentation",
+    "cta": "See it here",
+    "image": "/product-documentation.png"
+  }
+]
