@@ -18,8 +18,8 @@
   margin-right: 15px;
   width: 45px;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .reference {
-    padding: 30px;
+    padding: 0 30px 30px;
   }
 }/*# sourceMappingURL=page.module.css.map */

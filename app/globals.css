@@ -59,14 +59,21 @@ body main {
 body li::marker {
   color: #510816;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   body {
-    display: grid;
-    grid-template-columns: 300px 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1400px;
   }
   body main {
+    margin: auto;
+    max-width: 640px;
     padding: 40px 30px;
+  }
+}
+@media (min-width: 1280px) {
+  body main {
+    max-width: 950px;
   }
 }/*# sourceMappingURL=globals.css.map */

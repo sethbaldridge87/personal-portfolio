@@ -12,8 +12,13 @@
   left: calc(-100% - 50px);
   padding: 0 15px;
   transition: left 0.25s ease-in-out;
-  top: 124px;
+  top: 90px;
   width: 100%;
+}
+.nav .logo svg {
+  display: none;
+  height: 60px;
+  width: 60px;
 }
 .nav ul {
   margin-bottom: 8px;
@@ -48,17 +53,19 @@
   height: 45px;
   width: 45px;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .nav {
-    position: static;
+    position: fixed;
+    left: auto;
+    right: auto;
   }
   .nav aside {
     background-image: none;
     left: 0;
+    margin-top: 120px;
     position: static;
-    width: 300px;
   }
-  .nav ul {
-    margin-top: 60px;
+  .nav .logo svg {
+    display: block;
   }
 }/*# sourceMappingURL=navigation.module.css.map */

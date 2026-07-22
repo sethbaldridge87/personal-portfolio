@@ -15,8 +15,14 @@
         left: calc(-100% - 50px);
         padding: 0 15px;
         transition: left 0.25s ease-in-out;
-        top: 124px;
+        top: 90px;
         width: 100%;
+    }
+
+    .logo svg {
+        display: none;
+        height: 60px;
+        width: 60px;
     }
 
     ul {
@@ -63,17 +69,19 @@
     }
 
     @include breakpoint(lg) {
-        position: static;
+        position: fixed;
+        left: auto;
+        right: auto;
 
         aside {
             background-image: none;
             left: 0;
+            margin-top: 120px;
             position: static;
-            width: 300px;
         }
 
-        ul {
-            margin-top: 60px;
+        .logo svg {
+            display: block;
         }
     }
 }

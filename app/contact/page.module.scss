@@ -28,8 +28,12 @@
             transition: 0.3s;
         }
     }
-    
+
     @include breakpoint(lg) {
-        width: 50%;
+        min-width: 640px;
+    }
+    
+    @include breakpoint(xl) {
+        min-width: 950px;
     }
 }

@@ -78,13 +78,21 @@ body {
     }
 
     @include breakpoint(lg) {
-        display: grid;
-        grid-template-columns: 300px 1fr;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
-        max-width: 1280px;
+        max-width: 1400px;
 
         main {
+            margin: auto;
+            max-width: 640px;
             padding: 40px 30px;
+        }
+    }
+
+    @include breakpoint(xl) {
+        main {
+            max-width: 950px;
         }
     }
 }

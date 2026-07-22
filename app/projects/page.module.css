@@ -2,10 +2,11 @@
   margin-bottom: 2rem;
 }
 .projects .project img {
-  height: auto;
+  height: -moz-fit-content;
+  height: fit-content;
   max-width: 100%;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .projects .project {
     display: flex;
     margin-bottom: 6rem;
