@@ -1,9 +1,4 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import connect4 from "@/public/connect4.png";
-import wordle from "@/public/wordle.png";
-import productDocumentation from "@/public/product-documentation.png";
-
 import projectsData from "../data/projects.json";
 
 type Project = {
