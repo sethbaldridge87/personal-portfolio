@@ -13,7 +13,7 @@ const referenceArray = referenceData as Reference[];
 
 export default function References() {
     return (
-        <section>
+        <section className={styles.references}>
             <h1>References</h1>
             {referenceArray.map((r: Reference, index: number) => (
                 <div key={r.name} className={styles.reference}>

@@ -1,8 +1,9 @@
+.references h1 {
+  margin-bottom: 0.5rem;
+}
+
 .reference {
   padding: 15px;
-}
-.reference h1 {
-  margin-bottom: 0.5rem;
 }
 .reference h2 {
   margin-top: 0;

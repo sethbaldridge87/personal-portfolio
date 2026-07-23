@@ -1,12 +1,14 @@
 @use 'sass:color';
 @use '../variables' as *;
 
-.reference {
-    padding: 15px;
-
+.references {
     h1 {
         margin-bottom: .5rem;
     }
+}
+
+.reference {
+    padding: 15px;
 
     h2 {
         margin-top: 0;
