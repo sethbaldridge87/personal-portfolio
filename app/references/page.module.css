@@ -1,6 +1,9 @@
 .reference {
   padding: 15px;
 }
+.reference h1 {
+  margin-bottom: 0.5rem;
+}
 .reference h2 {
   margin-top: 0;
 }
@@ -20,6 +23,6 @@
 }
 @media (min-width: 1024px) {
   .reference {
-    padding: 0 30px 30px;
+    padding: 30px;
   }
 }/*# sourceMappingURL=page.module.css.map */
