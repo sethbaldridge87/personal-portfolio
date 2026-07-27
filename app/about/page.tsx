@@ -14,7 +14,7 @@ export default function About() {
             <p>My very first exposure to Vue.js and AI coding tools came when I was tasked with creating an icon library for internal use. But after a few tutorials and experimentation, I delivered a complete app that utilized API calls, keyword searches, file manipulation (attributes like size, color, file-type), and downloading multiple resources simultaneously. I was able to fast-track the development process by using GitHub Copilot, which I directed with precise and clear prompts. My newly developed app enabled users to easily maintain visual branding in important customer-facing presentations.</p>
             <p>In January of 2026, I was unfortunately caught up in a departmental restructuring that ended my time at Ivanti. But after taking time to learn new skills I'm developing every day, I'm ready to re-enter the workforce as a frontend or even fullstack developer in marketing or software engineering!</p>
             <h2>So what's next?</h2>
-            <p>I'm accepting any and all challenges! </p>
+            <p>I'm looking for a senior level role in frontend software development, preferably one involving a modern JS framework like React or Vue.</p>
             <p>Send me an <Link href="contact">email</Link> or contact me on <a href="https://www.linkedin.com/in/seth-baldridge-591282175/">LinkedIn</a>, and let's talk about what I can do for your team!</p>
         </section>
     )
