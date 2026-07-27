@@ -24,6 +24,30 @@
   background-color: #510816;
   transition: 0.3s;
 }
+.form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .form fieldset {
+    display: flex;
+    gap: 20px;
+  }
+  .form fieldset div {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .form fieldset {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .form fieldset {
+    display: flex;
+  }
+}
 @media (min-width: 1024px) {
   .form {
     min-width: 640px;
