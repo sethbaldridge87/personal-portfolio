@@ -24,6 +24,9 @@
   height: 60px;
   width: 60px;
 }
+.nav ul, .nav .socials {
+  display: none;
+}
 .nav ul {
   margin-bottom: 8px;
   padding: 0;
@@ -50,6 +53,9 @@
 .nav.navOpen aside {
   left: 0;
 }
+.nav.navOpen ul, .nav.navOpen .socials {
+  display: block;
+}
 .nav .socials {
   margin-left: 5px;
 }
@@ -68,6 +74,9 @@
     left: 0;
     margin-top: 120px;
     position: static;
+  }
+  .nav ul, .nav .socials {
+    display: block;
   }
   .nav .logo {
     display: block;
