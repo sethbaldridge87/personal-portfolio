@@ -2,7 +2,7 @@
   {
     "title": "Connect4 Game",
     "subtitle": "Connect4 clone built in Vue.js",
-    "description": "Complex state manipulation",
+    "description": "A classic two player game brought into a digital space. Built on a HTML grid with cells possessing unique data attributes, with state updated and tracked through complex JavaScript functions.",
     "link": "https://sethbaldridge87.github.io/Connect-4/",
     "cta": "Try it out!",
     "image": "/connect4.png",
@@ -10,7 +10,7 @@
   }, {
     "title": "Wordle Game",
     "subtitle": "Wordle clone built in React.js",
-    "description": "Complex state manipulation",
+    "description": "Utilizes two different word APIs, one for generating the target word, and another for checking the answers input by the user. State is updated through the onscreen keyboard.",
     "link": "https://sethbaldridge87.github.io/wordle-game/",
     "cta": "Try it out!",
     "image": "/wordle.png",
@@ -18,7 +18,7 @@
   }, {
     "title": "Product Documentation for Ivanti.com",
     "subtitle": "Responsive document library built in JavaScript.",
-    "description": "Complex state manipulation",
+    "description": "With minimal window space available, used JavaScript to manipulate the DOM in order to make the listed options easily accessible and visible.",
     "link": "https://www.ivanti.com/support/product-documentation",
     "cta": "See it here",
     "image": "/product-documentation.png"
