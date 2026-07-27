@@ -30,6 +30,7 @@ body .skipLink {
   transition: transform 0.5s ease;
   width: -moz-fit-content;
   width: fit-content;
+  z-index: 2;
 }
 body .skipLink:focus {
   pointer-events: auto;
