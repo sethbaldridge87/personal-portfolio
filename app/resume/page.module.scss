@@ -2,8 +2,14 @@
 @use '../variables' as *;
 
 .resume {
+    position: relative;
+
     h3, h4, p {
         margin: .45em 0;
+    }
+
+    h1 {
+        margin-right: 50px;
     }
 
     ul {
@@ -13,6 +19,14 @@
     li {
         margin: .35rem 0;
     }
+}
+
+.download {
+    right: 0;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 50px;
 }
 
 .experience {

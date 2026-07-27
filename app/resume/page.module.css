@@ -1,11 +1,25 @@
+.resume {
+  position: relative;
+}
 .resume h3, .resume h4, .resume p {
   margin: 0.45em 0;
+}
+.resume h1 {
+  margin-right: 50px;
 }
 .resume ul {
   margin-bottom: 0;
 }
 .resume li {
   margin: 0.35rem 0;
+}
+
+.download {
+  right: 0;
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 50px;
 }
 
 .experience {
