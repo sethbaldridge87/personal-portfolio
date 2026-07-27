@@ -5,7 +5,7 @@
   width: 100%;
   z-index: 1;
 }
-.header svg {
+.header .logo svg {
   height: 60px;
   width: 60px;
 }
@@ -17,7 +17,7 @@
     position: static;
     width: auto;
   }
-  .header svg {
+  .header .logo {
     display: none;
   }
 }/*# sourceMappingURL=header.module.css.map */

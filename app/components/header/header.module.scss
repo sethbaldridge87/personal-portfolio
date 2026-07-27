@@ -8,10 +8,13 @@
     width: 100%;
     z-index: 1;
 
-    svg {
-        height: 60px;
-        width: 60px;
+    .logo {
+        svg {
+            height: 60px;
+            width: 60px;
+        }
     }
+    
 
     @include breakpoint(lg) {
         background-image: none;
@@ -20,7 +23,7 @@
         position: static;
         width: auto;
 
-        svg {
+        .logo {
             display: none;
         }
     }

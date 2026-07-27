@@ -19,10 +19,14 @@
         width: 100%;
     }
 
-    .logo svg {
+    .logo {
         display: none;
-        height: 60px;
-        width: 60px;
+        width: fit-content;
+
+        svg {
+            height: 60px;
+            width: 60px;
+        }
     }
 
     ul {
@@ -80,7 +84,7 @@
             position: static;
         }
 
-        .logo svg {
+        .logo {
             display: block;
         }
     }
