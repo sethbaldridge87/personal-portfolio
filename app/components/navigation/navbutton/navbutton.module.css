@@ -1,5 +1,12 @@
 .mobileIcon {
+  background: none;
+  border: none;
   cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 8px;
+}
+.mobileIcon:focus-visible {
+  outline: 3px solid #49086c;
 }
 .mobileIcon .line {
   background-color: #222222;

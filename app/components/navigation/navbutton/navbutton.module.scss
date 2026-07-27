@@ -2,7 +2,16 @@
 @use '../../../variables' as *;
 
 .mobileIcon {
+    background: none;
+    border: none;
     cursor: pointer;
+        border: 3px solid transparent;
+        border-radius: 8px;
+
+    &:focus-visible {
+        // border: 3px solid $accessible;
+        outline: 3px solid $accessible;
+    }
 
     .line {
         background-color: $primary;
