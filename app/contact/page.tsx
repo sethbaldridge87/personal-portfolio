@@ -23,7 +23,7 @@ export default function Contact() {
         }
     };
     return (
-        <section>
+        <section className={styles.contact}>
             <h1>Contact Me</h1>
             <p>You can email me at <a href="mailto:sethbaldridge87@gmail.com">sethbaldridge87@gmail.com</a>.</p>
             <p>Or if you'd rather, send me a message via the form below!</p>

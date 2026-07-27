@@ -1,3 +1,9 @@
+@media (min-width: 1024px) {
+  .contact {
+    min-height: 75vh;
+  }
+}
+
 .form {
   width: 100%;
 }

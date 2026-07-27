@@ -1,6 +1,13 @@
 @use 'sass:color';
 @use '../variables' as *;
 
+.contact {
+    @include breakpoint(lg) {
+        min-height: 75vh;
+    }
+    
+}
+
 .form {
     width: 100%;
 
