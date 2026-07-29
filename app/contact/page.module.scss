@@ -28,11 +28,17 @@
         color: $white;
         cursor: pointer;
         display: block;
+        min-width: 155px;
         padding: 10px 15px;
 
         &:hover {
             background-color: $highlight;
             transition: 0.3s;
+        }
+
+        &:disabled {
+            background-color: $grayed;
+            cursor: auto;
         }
     }
 

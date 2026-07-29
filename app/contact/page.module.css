@@ -24,11 +24,16 @@
   color: rgb(245, 243, 243);
   cursor: pointer;
   display: block;
+  min-width: 155px;
   padding: 10px 15px;
 }
 .form button:hover {
   background-color: #510816;
   transition: 0.3s;
+}
+.form button:disabled {
+  background-color: #767676;
+  cursor: auto;
 }
 .form fieldset {
   border: none;
