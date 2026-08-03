@@ -52,6 +52,11 @@
   width: 10px;
 }
 
+.techSkills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+}
+
 @media (min-width: 640px) {
   .contactInfo {
     display: flex;

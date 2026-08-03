@@ -61,6 +61,11 @@
     }
 }
 
+.techSkills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+}
+
 @include breakpoint(sm) {
     .contactInfo {
         display: flex;

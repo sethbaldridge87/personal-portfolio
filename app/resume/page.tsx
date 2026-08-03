@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import experienceData from "../data/experience.json";
 import educationData from "../data/education.json";
+import skillsData from "../data/skills.json";
 import React from "react";
 
 type Experience = {
@@ -18,7 +19,6 @@ type Education = {
 }
 
 const experienceArray = experienceData as Experience[];
-
 const educationArray = educationData as Education[];
 
 export default function Resume() {
@@ -60,32 +60,10 @@ export default function Resume() {
             </div>
             <br />
             <h2>Technical Skills</h2>
-            <ul>
-                <li>TypeScript</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Vue.js</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>ADA compliance</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SCSS</li>
-                <li>jQuery</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>Adobe Creative Suite</li>
-                <li>Git</li>
-                <li>Github Copilot</li>
-                <li>Bootstrap</li>
-                <li>Python</li>
-                <li>AJAX</li>
-                <li>APIs</li>
-                <li>MongoDB</li>
-                <li>SEO</li>
-                <li>A/B Testing</li>
-                <li>Mutiny</li>
-                <li>Google Tag Manager</li>
+            <ul className={styles.techSkills}>
+                {skillsData.map((s: string, index: number) =>(
+                    <li key={index}>{s}</li>
+                ))}
             </ul>
             <br />
             <h2>Education</h2>
