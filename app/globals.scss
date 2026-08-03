@@ -36,10 +36,36 @@ html {
                 }
             }
 
-            .black-icon{
+            .black-icon {
                 svg {
                     * {
                         fill: white;
+                    }
+                }
+            }
+
+            nav {
+                aside {
+                    background-image: linear-gradient(to right, $primary , #000);
+
+                    li {
+                        a {
+                            color: $grayBackground;
+                        }
+                    }
+                }
+
+                button {
+                    span {
+                        background-color: $white;
+                    }
+                }
+            }
+
+            @include breakpoint(lg) {
+                nav {
+                    aside {
+                        background-image: none;
                     }
                 }
             }

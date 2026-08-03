@@ -12,7 +12,7 @@
         outline: 3px solid $accessible;
     }
 
-    .line {
+    span {
         background-color: $primary;
         display: block;
         height: 5px;
@@ -22,7 +22,7 @@
     }
 
     &.navButtonClicked {
-        .line {
+        span {
             &:nth-child(2) {
                 opacity: 0;
             }

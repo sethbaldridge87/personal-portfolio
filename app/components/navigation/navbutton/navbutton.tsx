@@ -11,7 +11,7 @@ export default function NavButton({ onToggle, mobileState }: NavButtonProps) {
     return (
         <button className={`${styles.mobileIcon} ${mobileState ? styles.navButtonClicked : ""}`} onClick={onToggle}>
             {elements.map((e, i) => (
-                <span key={i} className={styles.line}></span>
+                <span key={i}></span>
             ))} 
         </button>
     );

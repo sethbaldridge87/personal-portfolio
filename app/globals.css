@@ -22,6 +22,20 @@ html.dark body a:hover svg * {
 html.dark body .black-icon svg * {
   fill: white;
 }
+html.dark body nav aside {
+  background-image: linear-gradient(to right, #222222, #000);
+}
+html.dark body nav aside li a {
+  color: #dedede;
+}
+html.dark body nav button span {
+  background-color: rgb(245, 243, 243);
+}
+@media (min-width: 1024px) {
+  html.dark body nav aside {
+    background-image: none;
+  }
+}
 
 body {
   background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);
