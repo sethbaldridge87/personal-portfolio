@@ -22,6 +22,9 @@
   margin-right: 15px;
   width: 45px;
 }
+.reference blockquote {
+  white-space: pre-wrap;
+}
 @media (min-width: 1024px) {
   .reference {
     padding: 30px;

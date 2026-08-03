@@ -30,6 +30,10 @@
         width: 45px;
     }
 
+    blockquote {
+        white-space: pre-wrap;
+    }
+
     @include breakpoint(lg) {
         padding: 30px;
     }
