@@ -17,9 +17,9 @@
         background-color: $primary;
         display: block;
         height: 5px;
-        margin: 10px auto;
+        margin: 7.5px auto;
         transition: all 0.25s ease-in-out;
-        width: 60px;
+        width: 45px;
     }
 
     &.navButtonClicked {
@@ -29,11 +29,11 @@
             }
 
             &:nth-child(1) {
-                transform: translateY(15.5px) rotate(45deg);
+                transform: translateY(13px) rotate(45deg);
             }
 
             &:nth-child(3) {
-                transform: translateY(-15.5px) rotate(-45deg);
+                transform: translateY(-13px) rotate(-45deg);
             }
         }
     }
