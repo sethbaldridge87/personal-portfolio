@@ -3,9 +3,8 @@
 
 .contact {
     @include breakpoint(lg) {
-        min-height: 76vh;
+        min-height: 75vh;
     }
-    
 }
 
 .form {
@@ -33,12 +32,17 @@
 
         &:hover {
             background-color: $highlight;
-            transition: 0.3s;
+            transition: 0.25s;
         }
 
         &:disabled {
             background-color: $grayed;
             cursor: auto;
+        }
+
+        &:focus-visible {
+            outline: 3px solid $accessible;
+            outline-offset: 3px;
         }
     }
 

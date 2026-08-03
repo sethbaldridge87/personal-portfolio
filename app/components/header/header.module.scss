@@ -2,7 +2,10 @@
 @use '../../variables' as *;
 
 .header {
+    align-items: center;
     background-image: linear-gradient(to right, $white , #fff);
+    display: flex;
+    justify-content: space-between;
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -19,12 +22,17 @@
     @include breakpoint(lg) {
         background-image: none;
         grid-column: 1 / -1;
-        padding: 30px;
+        justify-content: end;
+        margin: auto;
         position: static;
-        width: auto;
+        width: 640px;
 
         .logo {
             display: none;
         }
+    }
+
+    @include breakpoint(xl) {
+        width: 950px;
     }
 }

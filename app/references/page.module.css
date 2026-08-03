@@ -8,9 +8,6 @@
 .reference h2 {
   margin-top: 0;
 }
-.reference:nth-child(odd) {
-  background-color: #dedede;
-}
 .reference a {
   display: flex;
   padding-right: 5px;

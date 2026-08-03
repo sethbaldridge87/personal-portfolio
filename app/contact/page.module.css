@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
   .contact {
-    min-height: 76vh;
+    min-height: 75vh;
   }
 }
 
@@ -28,12 +28,16 @@
   padding: 10px 15px;
 }
 .form button:hover {
-  background-color: #510816;
-  transition: 0.3s;
+  background-color: #e42c1f;
+  transition: 0.25s;
 }
 .form button:disabled {
   background-color: #767676;
   cursor: auto;
+}
+.form button:focus-visible {
+  outline: 3px solid #8438ac;
+  outline-offset: 3px;
 }
 .form fieldset {
   border: none;

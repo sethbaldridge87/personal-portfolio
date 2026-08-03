@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   right: 15px;
-  top: 11.5px;
+  top: 15px;
   z-index: 1;
 }
 .nav aside {
@@ -35,6 +35,7 @@
   border-radius: 8px;
   font-size: 20px;
   list-style-type: none;
+  transition: 0.25s;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -45,10 +46,10 @@
   padding: 8px 12px;
 }
 .nav ul li:hover {
-  background-color: rgb(240.995505618, 113.204494382, 137.7123595506);
+  background-color: rgb(249.9442231076, 215.4900398406, 213.0557768924);
 }
 .nav ul li:hover a {
-  color: #510816;
+  color: #e42c1f;
 }
 .nav.navOpen aside {
   left: 0;

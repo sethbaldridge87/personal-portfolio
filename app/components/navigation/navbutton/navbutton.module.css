@@ -6,7 +6,7 @@
   border-radius: 8px;
 }
 .mobileIcon:focus-visible {
-  outline: 3px solid #49086c;
+  outline: 3px solid #8438ac;
 }
 .mobileIcon .line {
   background-color: #222222;

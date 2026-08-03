@@ -1,0 +1,32 @@
+@use 'sass:color';
+@use '../../../variables' as *;
+
+.switch {
+    background: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 100px;
+
+    svg {
+        height: 50px;
+        width: 45px;
+    }
+
+    &:hover {
+        svg {
+            * {
+                fill: $highlight;
+                transition: fill 0.25s ease;
+            }
+        }
+    }
+
+    &:focus-visible {   
+        outline: 3px solid $accessible;
+    }
+
+    @include breakpoint(lg) {
+        margin-right: 0;
+    }
+}

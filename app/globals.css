@@ -1,3 +1,28 @@
+html.dark body {
+  background-image: linear-gradient(to right, #222222, #000);
+  color: rgb(245, 243, 243);
+}
+html.dark body header {
+  background-image: linear-gradient(to right, #222222, #000);
+}
+html.dark body header > button svg {
+  fill: white;
+}
+@media (min-width: 1024px) {
+  html.dark body header {
+    background-image: none;
+  }
+}
+html.dark body a svg * {
+  fill: rgb(245, 243, 243);
+}
+html.dark body a:hover svg * {
+  fill: #e42c1f;
+}
+html.dark body .black-icon svg * {
+  fill: white;
+}
+
 body {
   background-image: linear-gradient(to right, rgb(245, 243, 243), #fff);
   color: #222222;
@@ -17,7 +42,7 @@ body h4 {
   font-size: 1.15rem;
 }
 body .skipLink {
-  color: #510816;
+  color: #e42c1f;
   left: 0;
   margin: 0 auto;
   padding: 12px 8px;
@@ -27,7 +52,7 @@ body .skipLink {
   text-decoration: none;
   top: 15px;
   transform: translateY(-500%);
-  transition: transform 0.5s ease;
+  transition: transform 0.25s ease;
   width: -moz-fit-content;
   width: fit-content;
   z-index: 2;
@@ -39,26 +64,26 @@ body .skipLink:focus {
 body a {
   border: none;
   border-radius: 8px;
-  color: #510816;
+  color: #e42c1f;
   cursor: pointer;
   text-decoration: none;
 }
 body a:focus-visible {
-  outline: 3px solid #49086c;
+  outline: 3px solid #8438ac;
   outline-offset: 3px;
 }
 body a:hover svg * {
-  fill: #510816;
-  transition: fill 0.3s ease;
+  fill: #e42c1f;
+  transition: fill 0.25s ease;
 }
 body a:visited {
-  color: #510816;
+  color: #e42c1f;
 }
 body main {
   padding: 140px 15px 40px;
 }
 body li::marker {
-  color: #510816;
+  color: #e42c1f;
 }
 @media (min-width: 1024px) {
   body {
