@@ -9,12 +9,6 @@ html {
             header {
                 background-image: linear-gradient(to right, $primary , #000);
 
-                > button {
-                    svg {
-                        fill: white;
-                    }
-                }
-
                 @include breakpoint(lg) {
                     background-image: none;
                 }
@@ -58,6 +52,17 @@ html {
                 button {
                     span {
                         background-color: $white;
+                    }
+                }
+            }
+
+            form {
+                button {
+                    background-color: $white;
+                    color: $primary;
+
+                    &:hover {
+                        color: $white;
                     }
                 }
             }

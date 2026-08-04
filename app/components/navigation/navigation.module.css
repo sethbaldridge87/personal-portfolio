@@ -12,7 +12,7 @@
   left: calc(-100% - 50px);
   padding: 0 15px;
   transition: left 0.25s ease-in-out;
-  top: 90px;
+  top: 85px;
   width: 100%;
 }
 .nav .logo {

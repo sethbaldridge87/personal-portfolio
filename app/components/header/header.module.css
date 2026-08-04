@@ -16,6 +16,7 @@
   .header {
     background-image: none;
     grid-column: 1/-1;
+    height: 56px;
     justify-content: end;
     margin: auto;
     position: static;

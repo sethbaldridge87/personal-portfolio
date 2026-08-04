@@ -5,9 +5,6 @@ html.dark body {
 html.dark body header {
   background-image: linear-gradient(to right, #222222, #000);
 }
-html.dark body header > button svg {
-  fill: white;
-}
 @media (min-width: 1024px) {
   html.dark body header {
     background-image: none;
@@ -30,6 +27,13 @@ html.dark body nav aside li a {
 }
 html.dark body nav button span {
   background-color: rgb(245, 243, 243);
+}
+html.dark body form button {
+  background-color: rgb(245, 243, 243);
+  color: #222222;
+}
+html.dark body form button:hover {
+  color: rgb(245, 243, 243);
 }
 @media (min-width: 1024px) {
   html.dark body nav aside {
