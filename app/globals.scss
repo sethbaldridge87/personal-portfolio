@@ -9,6 +9,14 @@ html {
             header {
                 background-image: linear-gradient(to right, $primary , #000);
 
+                button {
+                    svg {
+                        * {
+                            fill: $white;
+                        }
+                    }
+                }
+
                 @include breakpoint(lg) {
                     background-image: none;
                 }
