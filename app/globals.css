@@ -17,7 +17,7 @@ html.dark body a svg * {
   fill: rgb(245, 243, 243);
 }
 html.dark body a:hover svg * {
-  fill: #e42c1f;
+  fill: #c03838;
 }
 html.dark body .black-icon svg * {
   fill: white;
@@ -74,7 +74,7 @@ body h4 {
   font-size: 1.15rem;
 }
 body .skipLink {
-  color: #e42c1f;
+  color: #c03838;
   left: 0;
   margin: 0 auto;
   padding: 12px 8px;
@@ -96,7 +96,7 @@ body .skipLink:focus {
 body a {
   border: none;
   border-radius: 8px;
-  color: #e42c1f;
+  color: #c03838;
   cursor: pointer;
   text-decoration: none;
 }
@@ -105,17 +105,17 @@ body a:focus-visible {
   outline-offset: 3px;
 }
 body a:hover svg * {
-  fill: #e42c1f;
+  fill: #c03838;
   transition: fill 0.25s ease;
 }
 body a:visited {
-  color: #e42c1f;
+  color: #c03838;
 }
 body main {
   padding: 140px 15px 40px;
 }
 body li::marker {
-  color: #e42c1f;
+  color: #c03838;
 }
 @media (min-width: 1024px) {
   body {

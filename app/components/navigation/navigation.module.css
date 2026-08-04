@@ -46,10 +46,10 @@
   padding: 8px 12px;
 }
 .nav ul li:hover {
-  background-color: rgb(249.9442231076, 215.4900398406, 213.0557768924);
+  background-color: rgb(241.9032258065, 210.0967741935, 210.0967741935);
 }
 .nav ul li:hover a {
-  color: #e42c1f;
+  color: #c03838;
 }
 .nav.navOpen aside {
   left: 0;

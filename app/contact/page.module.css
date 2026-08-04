@@ -30,7 +30,7 @@
   padding: 10px 15px;
 }
 .form button:hover {
-  background-color: #e42c1f;
+  background-color: #c03838;
   transition: 0.25s;
 }
 .form button:disabled {

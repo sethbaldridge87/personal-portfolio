@@ -10,7 +10,7 @@
   width: 45px;
 }
 .switch:hover svg * {
-  fill: #e42c1f;
+  fill: #c03838;
   transition: fill 0.25s ease;
 }
 .switch:focus-visible {
