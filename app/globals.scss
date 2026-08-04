@@ -65,6 +65,21 @@ html {
             }
 
             form {
+                textarea, input {
+                    background-color: $primary;
+                    color: $white;
+                    
+                    &:focus-visible {
+                        outline-offset: -1px;
+                    }
+
+                    &:-webkit-autofill {
+                        // border: 1px solid green;
+                        -webkit-text-fill-color: $white;
+                        -webkit-box-shadow: 0 0 0px 1000px $primary inset;
+                    }
+                }
+
                 button {
                     background-color: $white;
                     color: $primary;

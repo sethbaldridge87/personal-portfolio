@@ -1,4 +1,4 @@
-import { Html, Head, Body, Text } from "react-email";
+import { Html, Head, Body, Text, Heading, Hr } from "react-email";
 
 interface ContactEmail {
     name: string,
@@ -10,10 +10,15 @@ export const ContactEmail = ({ name, email, message }: ContactEmail) => (
     <Html>
       <Head />
       <Body>
-        <Text>You have a new message from:</Text>
-        <Text>Name: {name}</Text>
-        <Text>Email: {email}</Text>
-        <Text>{message}</Text>
+        <Heading as="h1">You have a new message from:</Heading>
+        <Text><strong>Name:</strong> {name}</Text>
+        <Text><strong>Email:</strong> {email}</Text>
+        <Text style={textarea}>{message}</Text>
+        <Hr />
       </Body>
     </Html>
 )
+
+const textarea: React.CSSProperties = {
+  whiteSpace: 'pre-line'
+}

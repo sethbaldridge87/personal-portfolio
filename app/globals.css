@@ -31,6 +31,17 @@ html.dark body nav aside li a {
 html.dark body nav button span {
   background-color: rgb(245, 243, 243);
 }
+html.dark body form textarea, html.dark body form input {
+  background-color: #222222;
+  color: rgb(245, 243, 243);
+}
+html.dark body form textarea:focus-visible, html.dark body form input:focus-visible {
+  outline-offset: -1px;
+}
+html.dark body form textarea:-webkit-autofill, html.dark body form input:-webkit-autofill {
+  -webkit-text-fill-color: rgb(245, 243, 243);
+  -webkit-box-shadow: 0 0 0px 1000px #222222 inset;
+}
 html.dark body form button {
   background-color: rgb(245, 243, 243);
   color: #222222;
