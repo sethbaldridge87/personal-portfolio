@@ -34,7 +34,7 @@ export default function Resume() {
             <hr />
             <div className={styles.contactInfo}>
                 <p>Salt Lake City, UT</p>
-                <p>801-231-2778</p>
+                <p>1+801-231-2778</p>
                 <p>sethbaldridge87@gmail.com</p>
             </div>
             <h2>Career Summary</h2>
