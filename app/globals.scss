@@ -74,7 +74,6 @@ html {
                     }
 
                     &:-webkit-autofill {
-                        // border: 1px solid green;
                         -webkit-text-fill-color: $white;
                         -webkit-box-shadow: 0 0 0px 1000px $primary inset;
                     }
