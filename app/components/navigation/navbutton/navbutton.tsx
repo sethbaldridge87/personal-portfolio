@@ -1,4 +1,4 @@
-import styles from "./navbutton.module.css";
+import styles from "./navbutton.module.scss";
 
 interface NavButtonProps {
     onToggle: () => void,

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
-import styles from "./lightswitch.module.css";
+import styles from "./lightswitch.module.scss";
 import Bulb from './bulb';
 
 export default function LightSwitch() {

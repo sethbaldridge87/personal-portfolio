@@ -1,7 +1,7 @@
 "use client"
 
 import { SubmitEvent, useState } from "react";
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import { useRouter } from "next/navigation";
 
 export default function Contact() {

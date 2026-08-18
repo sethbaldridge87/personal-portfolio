@@ -1,9 +1,0 @@
-.footer {
-  padding: 30px 0;
-  text-align: center;
-}
-@media (min-width: 1024px) {
-  .footer {
-    grid-column: 2;
-  }
-}/*# sourceMappingURL=footer.module.css.map */

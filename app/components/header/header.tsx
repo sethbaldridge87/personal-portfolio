@@ -1,6 +1,6 @@
 import Link from "next/link";
 import LightSwitch from "./lightswitch/lightswitch";
-import styles from "./header.module.css";
+import styles from "./header.module.scss";
 
 export default function Header() {
     return (

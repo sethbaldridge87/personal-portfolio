@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import NavButton from "./navbutton/navbutton";
-import styles from "./navigation.module.css";
+import styles from "./navigation.module.scss";
 
 export default function Aside() {
     const navItems: string [] = ['About', 'Resume', 'Projects', 'References', 'Contact'];

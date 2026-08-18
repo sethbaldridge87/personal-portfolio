@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import experienceData from "../data/experience.json";
 import educationData from "../data/education.json";
 import skillsData from "../data/skills.json";
