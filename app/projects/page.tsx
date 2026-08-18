@@ -15,7 +15,7 @@ export default function Projects() {
     return (
         <section className={styles.projects}>
             <h1>My Projects</h1>
-            {projectsData.map((p: Project, index: number) => (
+            {projectsData.map((p: Project) => (
                 <div key={p.title} className={styles.project}>
                     <img src={p.image} />
                     <div className={styles.text}>

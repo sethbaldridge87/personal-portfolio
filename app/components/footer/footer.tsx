@@ -1,7 +1,6 @@
 import styles from "./footer.module.scss";
 
 export default function Footer() {
-    const navItems: string [] = ['About', 'Resume', 'Projects', 'References', 'Contact'];
     const thisYear: number = new Date().getFullYear();
 
     return (

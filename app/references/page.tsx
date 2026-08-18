@@ -15,7 +15,7 @@ export default function References() {
     return (
         <section className={styles.references}>
             <h1>References</h1>
-            {referenceArray.map((r: Reference, index: number) => (
+            {referenceArray.map((r: Reference) => (
                 <div key={r.name} className={styles.reference}>
                     <h2>{r.name}</h2>
                     <blockquote cite={r.linkedIn}>
