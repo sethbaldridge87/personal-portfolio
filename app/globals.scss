@@ -150,6 +150,10 @@ body {
         cursor: pointer;
         text-decoration: none;
 
+        svg * {
+            transition: fill 0.25s ease;
+        }
+
         &:focus-visible {
             outline: 3px solid $accessible;
             outline-offset: 3px;
@@ -158,7 +162,6 @@ body {
         &:hover {
             svg * {
                 fill: $highlight;
-                transition: fill 0.25s ease;
             }
         }
 
